@@ -12,7 +12,11 @@
     ├── test.py
     └── inference.py
 
-## Install dependencies
+## Install dependencies and make necessary folders:
+```shell
+cd gpt-2-for-Japanese-text-summarization-main
+mkdir checkpoint log data
+```
 First, you must install dependencies, run the following command:
 ```shell
 pip install -r requirements.txt
